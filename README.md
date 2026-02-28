@@ -6,7 +6,7 @@ This is a Streamlit-based GUI tool for visualizing and analyzing confocal micros
 
 ## Demo
 
-https://github.com/masahin720/actisculpt_confocal/raw/main/assets/demo.mp4
+![App Demo](assets/demo.gif)
 
 ## Features
 - Load and visualize 3D TIFF stacks.
