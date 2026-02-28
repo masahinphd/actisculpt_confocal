@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (images, standard datasets, etc)
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.mov
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo

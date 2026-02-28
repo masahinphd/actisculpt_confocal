@@ -1,0 +1,7 @@
+streamlit
+tifffile
+numpy
+matplotlib
+imageio
+scikit-image
+Pillow
