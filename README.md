@@ -4,6 +4,16 @@
 
 This is a Streamlit-based GUI tool for visualizing and analyzing confocal microscopy images (TIFF stacks), originally developed for the ActiSculpt research project.
 
+## Quick Start
+
+Use the launcher for your operating system:
+
+- Windows: double-click `run_app.bat`
+- macOS: double-click `run_app.command`
+- Linux: run `bash run_app.sh` or execute `python run_app.py`
+
+The launcher creates a local virtual environment if needed, installs the packages from `requirements.txt`, checks the environment, and starts the Streamlit app.
+
 ## Demo
 
 ![App Demo](assets/demo.gif)
@@ -21,15 +31,18 @@ This is a Streamlit-based GUI tool for visualizing and analyzing confocal micros
     ```bash
     pip install -r requirements.txt
     ```
+3.  Or use the bundled launcher scripts, which handle environment setup automatically.
 
 ## Usage
 
 1.  Run the application using Streamlit:
     ```bash
-    streamlit run confocal_gui.py
+    python run_app.py
     ```
 2.  Use the sidebar to navigate to your directory containing `.tif` or `.tiff` files.
 3.  Adjust visualization parameters in the sidebar and explore the tabs.
+
+If you prefer to skip the launcher, you can still run the app directly with `streamlit run confocal_gui.py` once the dependencies are installed.
 
 ## License
 MIT License
