@@ -29,6 +29,11 @@ Thumbs.db
 *.avi
 *.mov
 
+# Keep the bundled example confocal dataset under version control
+!Fiber confocal scan examples/
+!Fiber confocal scan examples/**
+Fiber confocal scan examples/**/.DS_Store
+
 # IDE / Editor
 .idea/
 .vscode/
